@@ -14,16 +14,9 @@ input = [int(line.strip()) for line in open("input.txt", "r")]
 
 
 def main():
-    measurments = []
-    for i in range(len(input)):
-        measurments.append(sum(input[i : i + 3]))
-
-    print(measurments)
-
     counter = 0
-    for i in range(1, len(measurments)):
-        if measurments[i] > measurments[i - 1]:
-            print(f"{measurments[i]} > {measurments[i - 1]}")
+    for x in range(len(input) - 3):
+        if input[x + 3] > input[x]:
             counter += 1
 
     print(counter)
