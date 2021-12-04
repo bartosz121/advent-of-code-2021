@@ -11,7 +11,7 @@ def part_2(*, fn) -> str:
         for code in data:
             counter[code[current_bit]] += 1
 
-        # edge case if equal number of 1 and 0
+        # edge case if 1's and 0's are equal
         if counter["0"] == counter["1"]:
             if fn.__name__ == "max":
                 most_common = "1"
@@ -20,7 +20,7 @@ def part_2(*, fn) -> str:
         else:
             most_common = fn(counter, key=counter.get)
         data = list(filter(lambda x: x[current_bit] == most_common, data))
-        # print(f"({fn=})({current_bit=})({current_bit=}){most_common=}{counter=}{data=}")
+        # print(f"({fn=})({current_bit=}){most_common=}{counter=}{data=}")
         current_bit += 1
 
     return data[0]
