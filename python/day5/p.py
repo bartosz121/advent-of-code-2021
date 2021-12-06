@@ -59,8 +59,7 @@ def main():
         #     continue
 
         for point in get_points(start, end):
-            pos = f"({point[0]}, {point[1]})"
-            grid[pos] += 1
+            grid[point] += 1
 
     print(sum(value >= 2 for value in grid.values()))
 
