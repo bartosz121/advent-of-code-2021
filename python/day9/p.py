@@ -28,6 +28,7 @@ def find_basin_size(start_point, shape, seen=None) -> int:
         if (dy, dx) in seen:
             continue
 
+        # this 'guards' from IndexError and bugs with '-1' in corners and 1st/last row/col in grid
         if 0 <= dy < shape.y and 0 <= dx < shape.x:
             n2 = input[dy][dx]
 
@@ -69,6 +70,7 @@ def main():
                 dy = y + d[0]
                 dx = x + d[1]
 
+                # this 'guards' from IndexError and bugs with '-1' in corners and 1st/last row/col in grid
                 if 0 <= dy < shape.y and 0 <= dx < shape.x:
                     n2 = input[dy][dx]
 
