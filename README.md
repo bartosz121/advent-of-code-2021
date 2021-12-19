@@ -4,7 +4,7 @@
 | :---------: | :------------------------------------: | :-----------------------------------------: |
 | [01][day01] | [:heavy_check_mark:](python/day1/p.py) | [:heavy_check_mark:](rust/day1/src/main.rs) |
 | [02][day02] | [:heavy_check_mark:](python/day2/p.py) | [:heavy_check_mark:](rust/day2/src/main.rs) |
-| [03][day03] | [:heavy_check_mark:](python/day3/p.py) |                     :x:                     |
+| [03][day03] | [:heavy_check_mark:](python/day3/p.py) | [:heavy_check_mark:](rust/day3/src/main.rs) |
 | [04][day04] | [:heavy_check_mark:](python/day4/p.py) |                     :x:                     |
 | [05][day05] | [:heavy_check_mark:](python/day5/p.py) |                     :x:                     |
 | [06][day06] | [:heavy_check_mark:](python/day6/p.py) |                     :x:                     |
