@@ -8,7 +8,7 @@
 | [04][day04] | [:heavy_check_mark:](python/day4/p.py)  |                     :x:                     |
 | [05][day05] | [:heavy_check_mark:](python/day5/p.py)  |                     :x:                     |
 | [06][day06] | [:heavy_check_mark:](python/day6/p.py)  |                     :x:                     |
-| [07][day07] | [:heavy_check_mark:](python/day7/p.py)  |                     :x:                     |
+| [07][day07] | [:heavy_check_mark:](python/day7/p.py)  | [:heavy_check_mark:](rust/day7/src/main.rs) |
 | [08][day08] | [:heavy_check_mark:](python/day8/p.py)  |                     :x:                     |
 | [09][day09] | [:heavy_check_mark:](python/day9/p.py)  |                     :x:                     |
 | [10][day10] | [:heavy_check_mark:](python/day10/p.py) |                     :x:                     |
